@@ -25,7 +25,7 @@ export const Info = ({ counterpass, subject = [], ontextChange }) => {
                 ))
             }
 
-            <input type="text" onChange={(e) => ontextChange(e.target.value)} />
+            <input type="text" value={"Rupesh"} onChange={(e) => ontextChange(e.target.value)} />
 
 
 

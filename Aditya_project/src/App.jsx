@@ -6,7 +6,7 @@ import { Info } from './component/info'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [text , setText] = useState("Hiii")  // state at parent 
+  const [text , setText] = useState("")  // state at parent 
 
   const incVal = () => {
     setCount(count + 1)
