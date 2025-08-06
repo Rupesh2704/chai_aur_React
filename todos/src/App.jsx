@@ -22,7 +22,7 @@ function App() {
 
   const deleteTodo = (id) => {
     // it will create new array but leaving this provided id 
-    setTodo((prev) => prev.filter((eachvalue) => eachvalue.id != id))
+    setTodo((prev) => prev.filter((eachvalue) => eachvalue.id != id)) 
   }
 
   const toggleComplete = (id) => {
